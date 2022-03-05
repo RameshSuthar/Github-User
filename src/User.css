@@ -1,0 +1,31 @@
+.User {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(123 166 247);
+    justify-content: center;
+    margin: auto;
+}
+
+.User-img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.User-img img {
+    width: 100%;   
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.content p {
+    margin: 5px 0px;
+}
